@@ -11,6 +11,6 @@ Tweetを集めたtxtファイル 200検体(男女100検体ずつ)
 
 ## 使い方
 
-1. make_feature.py: txtファイルからで形態素解析(出力：wordfile,wordlist)
+1. mecab.py: txtファイルからで形態素解析(出力：wordfile,wordlist)
 2. bag-of-ngram.py: wordfile, wordlistを使用して、各単語の出現頻度による特徴量ベクトルを作成
 3. classificaation.py: ランダムに一部データを取り出して、二値分類
