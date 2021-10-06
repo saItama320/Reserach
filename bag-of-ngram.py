@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Purpose: Wordfile,Wordlistを走査して、頻度を元にn-gramの特徴量を作成(Make_feature.pyでWordfile, Wordlistを作成)
+# Purpose: Wordfile,Wordlistを走査して、頻度を元にn-gramの特徴量を作成(make_word_used_mecab.pyでWordfile, Wordlistを作成)
 # Input: n-gramのn, 正のwordfile, 負のwordfile, wordlist
 # Output: 頻度による特徴量ベクトルファイル
 
